@@ -1,0 +1,69 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Шапка */
+header {
+    background-image: url('/home/ilmira/Desktop/proect1/dev_env/site_Capsuluxe/main/static/deps/image/background.jpg');
+    background-size: cover; /* Это свойство гарантирует, что изображение будет полностью покрывать задний план */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+header p {
+    color: #666;
+}
+
+/* Навигация */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Основной контент */
+main {
+    padding: 20px 0;
+}
+
+main h2 {
+    color: #333;
+}
+
+/* Подвал */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
